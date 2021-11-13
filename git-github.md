@@ -190,7 +190,7 @@ Z mojego doświadczenia:
 Najprościej przejrzeć sobie jakieś repozytorium i popatrzeć jak to wszystko wygląda, ponieważ wszystko jest opakowane w ładny i raczej przejrzysty interfejs. Nie mniej, warto trochę bliżej przyjrzeć się sekcjom ***Issues*** oraz ***Pull requests***
 #### Issues
 Sekcja, która przypomina trochę forum dyskusyjne. Można tam tworzyć wątki związane z repozytorium pod różnym kątem, dzięki etykietom (labels), które określają, czego dotyczy dany temat (bug, question, feature, enhancement, itd.). Labele można tworzyć samemu, dzięki czemu to "forum" będzie dostosowane bardziej do aktualnego projektu. Jeśli dyskusje się zakończą, bądź zgłoszony tam problem zostanie rozwiązany i zakończony commitem z naprawą, to zwykle temat jest zamykany, ale nadal widoczny w sekcji tematów zamkniętych przez co zawsze można do zawartości tych dyskusji wrócić.
-![Issues na githubie](github_issues.png)
+![Issues na githubie](./.github/github_issues.png)
 #### Pull requests
 Pull requesty pozwalają poinformować innych o zmianach, które zostały wprowadzine do pewnej gałęzi w repozytorium na GitHubie. Po utworzeniu pull requesta, można przedyskutować i przejrzeć potencjalne zmiany ze współpracownikami i dodać kolejne zobowiązania/poprawki, zanim zmiany zostaną zmergowane z gałęzią bazową.
 Ciekawe w pull requestach jest to, że każdy może je stworzyć, nawet jeżeli nie pracował nigdy nad kodem. Takim przypadkiem mogłaby być sytuacja, w której ktoś pobrał sobie dane repozytorium i zauważył w nim jakiś błąd - może wtedy go naprawić i utworzyć pull request, aby z jego wersji repozytoruim daną gałąź scalić z gałęzią z repozytorium oryginalnego, przez co bezpośrednio przyczyni się do poprawy kodu zupełnie nieznanej dla siebie osoby/grupy ludzi (o ile zmiany zostaną zaakceptowane przez uprawnionego właściciela repozytorium oryginalnego).
@@ -198,7 +198,7 @@ Tak jak w przypadku zakładki ***Issues***, tutaj również znajdują się etyki
 Pull reuqest zawiera również informacje o wszystkich commitach, które w sobie posiada - inaczej mówiąc, pokazuje całą historię zmian, którą ktoś wykonał do momentu, w którym ten ktoś uznał, że chce wprowadzone zmiany wcielić do określonej gałęzi głównego projektu. Poza tym obecne są również informacje o przejściu testów (w przypadku kodu) oraz informacje o różnicach w deponowanych plikach (***diff***, które były wspomniane w sekcji gita).
 Pull requesty mogą tworzyć nie tylko ludzie, ale również narzędzia (boty), nadzorujące bezpieczeństwo repozytorium, np. **[dependabot](https://github.com/apps/dependabot)**, który automatycznie sprawdza i naprawia niezgodności z dependencies potrzebnych do poprawnego działania zawartości naszego repozytorium.
 Przyjęcie pull requesta oznacza automatyczne zamknięcie danego wątku.
-![Pull request na githubie](github_pullrequest.png)
+![Pull request na githubie](./.github/github_pullrequest.png)
 #### git lfs
 ##### Przegląd
 Github ma pewne ograniczenia w wielkości przesyłanych plików. Github blokuje próby pushowania, których pliki sumarycznie przekraczają 100 MB.
